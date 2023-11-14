@@ -1,0 +1,10 @@
+SonarQube:
+Username: admin
+Password: admin
+
+Sonatype Nexus Repository:
+Username: admin
+Password:	 # cat /nexus-data/admin.password
+
+Jenkins:
+
