@@ -13,7 +13,7 @@ $ docker exec -it  nexus cat /nexus-data/admin.password
 Jenkins:
 Access URL: http://IP:8080/
 Username: admin
-Password: admin
+Password: ---
 ----------------------------------------------------------------
 Reference URL's:
 https://www.coachdevops.com/2022/01/install-sonatype-nexus-3-using-docker.html
