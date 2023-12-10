@@ -1,2 +1,20 @@
-https://bigdata-etl.com/jenkins-nexus-sonarqube-docker-compose-2/
+SonarQube:
+Access URL: http://IP:9000/
+Username: admin
+Password: admin
+----------------------------------------------------------------
+Sonatype Nexus Repository:
+Access URL: http://IP:8081/
+Username: admin
+Password:	 # cat /nexus-data/admin.password
 
+$ docker exec -it  nexus cat /nexus-data/admin.password
+----------------------------------------------------------------
+Jenkins:
+Access URL: http://IP:8080/
+Username: admin
+Password: admin
+----------------------------------------------------------------
+Reference URL's:
+https://www.coachdevops.com/2022/01/install-sonatype-nexus-3-using-docker.html
+https://www.cidevops.com/2018/06/jenkins-nexus-integration-how-to.html
